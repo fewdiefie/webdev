@@ -1,0 +1,21 @@
+body {
+    background-color: #4453b3;
+    font-size: 24px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 30%;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: #081c9e;
+}
+
+a:hover {
+    opacity: 0.8;
+}
