@@ -10,7 +10,7 @@ a {
     text-align: center;
     padding: 10px;
     margin: 20px auto;
-    width: 30%;
+    width: 50%;
     text-decoration: none;
     border: 1px solid white;
     border-radius: 10px;
@@ -20,4 +20,12 @@ a {
 
 a:hover {
     opacity: 0.8;
+}
+
+.tp {
+    background-color: #202020;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
 }
