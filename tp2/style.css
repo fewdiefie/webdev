@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #32a897;
+    background-image: linear-gradient(#32a897, #aac7a5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, sans-serif;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+}
+
+a {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 7px;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: #aac7a5;
+    color: #3c7034;
+}
+
+a.first {
+    border-top-left-radius: 12px;
+}
+
+a.last {
+    border-top-right-radius: 12px;
+}
+
+a.active {
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 20px;
+    background-color: #3c7034;
+    border-bottom: none;
+    position: relative;
+    top: 1px;
+    color: white;
+}
+
+.exercice {
+    padding: 20px;
+    width: 70%;
+    background-color: #3c7034;
+    border-radius: 12px;
+}
+
+.question {
+    background-color: #338a24;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px 0;
+    border: 1px solid #aac7a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+}
+
+.figure {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    display: block;
+    border: 2px solid #385d8a;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.red {
+    background-color: #d99694; 
+}
+
+.yellow {
+    background-color: #c4bd97;
+}
+
+.blue {
+    background-color: #558fd5;
+}
+
+.w-1x3 {
+    width: 50px;
+    height: 165px;
+}
+
+.w-2x2 {
+    width: 110px;
+    height: 110px;
+}
+
+.w-3x3 {
+    width: 160px;
+    height: 160px;
+}
+
+.s-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.s-2 {
+    width: 105px;
+    height: 50px;
+}
+
+.x-1 {
+    left: 52px;
+}
+
+.y-1 {
+    top: 52px;
+}
+
+.x-2 {
+    left: 104px;
+}
+
+.y-2 {
+    top: 104px;
+}
+
+.x-15 {
+    left: 55px;
+}
+
+.y-15 {
+    top: 55px;
+}
+
+.x-25 {
+    left: 110px;
+}
+
+.y-25 {
+    top: 110px;
+}
