@@ -3,14 +3,17 @@
     <head>
         <title>tp2</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="ex1.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
         <main>
+            <h1>TP 2</h1>
             <nav>
                 <a href="#" class="active first">exercice 1</a
                 ><a href="ex1-bootstrap.html">exercice 1 - bootstrap</a
-                ><a href="ex2.html" class="last">exercice 2</a>
+                ><a href="ex2.html">exercice 2</a
+                ><a href="ex2-bootstrap.html" class="last">exercice 2 - bootstrap</a>
             </nav>
             <div class="exercice">
                 <p>positionement absolu</p>
@@ -83,5 +86,17 @@
                 </div>
             </div>
         </main>
+        <footer>
+            <div>
+                made with <span class="love">❤</span> by Hamza EL KAICHE
+            </div>
+            <div>
+                last modified: <span class="date" id="last-modified">zabi</span>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+        <script>
+            updateLastModified("tp2/ex1.html");
+        </script>
     </body>
 </html>
