@@ -5,7 +5,7 @@ function updateLastModified(page) {
       return response.json();
     })
     .then((commits) => {
-      document.getElementById('last-modified').textContent = commits[0].commit.committer.date.slice(0, 10);
+      document.getElementById('last-modified').textContent = commits[0].commit.committer.date.slice(0, 10).split('-').reverse().join('/');
     });
   }
 }
