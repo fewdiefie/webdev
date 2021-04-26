@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.w-50 {
+.mw-50 {
     width: 50%;
 }
 
@@ -25,7 +25,7 @@
         display: block;
     }
 
-    .w-50 {
+    .mw-50 {
         width: auto;
     }
 }
@@ -43,7 +43,7 @@
         display: block;
     }
 
-    .x2 .w-50 {
+    .x2 .mw-50 {
         width: auto;
     }
 }
